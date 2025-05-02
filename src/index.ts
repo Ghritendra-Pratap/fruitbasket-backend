@@ -32,9 +32,6 @@ app.use("/api/cart", CartRoute)
 app.use("/api/orders", OrderRoute)
 app.use("/api/payment", PaymentRoute)
 
-
-
-
 app.listen(PORT , ()=>{
     console.log(`Server is running on port ${PORT}`)
 })
