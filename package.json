@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "install": "npm install && npm install mysql2 --save",
+    "install": "npm install",
     "build": "tsc",
     "dev": "nodemon src/index.ts",
     "start": "nodemon dist/index.js"
